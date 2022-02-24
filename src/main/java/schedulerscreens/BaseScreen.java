@@ -38,4 +38,15 @@ public class BaseScreen {
                 .until(ExpectedConditions.textToBePresentInElement(element,text));
     }
 
+    public boolean isDisplayedWithExp(MobileElement element){
+        try {
+            should(element,15);
+            return element.isDisplayed();
+        }catch (Exception ex){
+            return false;
+        }
+
+
+    }
+
 }

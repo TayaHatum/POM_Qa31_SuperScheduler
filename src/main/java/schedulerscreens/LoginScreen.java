@@ -2,6 +2,7 @@ package schedulerscreens;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import models.Auth;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginScreen extends BaseScreen{
@@ -39,4 +40,17 @@ public class LoginScreen extends BaseScreen{
         return new WizardScreen(driver);
     }
 
+    public WizardScreen complexLogin(Auth auth){
+        should(emailEditText,20);
+        type (emailEditText,auth.getEmail());
+        type(passwordEditText, auth.getPassword());
+        hideKeyBoard();
+        loginButton.click();
+
+        return new WizardScreen(driver);
+    }
+
+    public boolean isLoginButton(){
+        return loginButton.isDisplayed();
+    }
 }
