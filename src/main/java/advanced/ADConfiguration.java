@@ -33,3 +33,10 @@ public class ADConfiguration {
         driver.quit();
     }
 }
+//{
+//        "deviceName": "Nex",
+//        "platformName": "android",
+//        "platformVersion": "8.0",
+//        "appPackage": "com.h6ah4i.android.example.advrecyclerview",
+//        "appActivity": ".launcher.MainActivity"
+//        }
