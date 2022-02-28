@@ -33,4 +33,22 @@ public class EventCreateTest extends SSConfiguration {
 
 
     }
+
+    @Test
+    public void createNewEventTestAssert(){
+        Event event = Event.builder().title("Party").type("b_day").breaks(1).wage(50).build();
+       /// logger.info( event.toString());
+
+        new HomeScreen(driver)
+                .initCreationEvent()
+                .createNewEvent(event)
+                .isFabButtonPresentAssert()
+                .openMenu()
+                .logOut()
+                .isLoginButtonAssert();
+
+
+
+    }
+
 }

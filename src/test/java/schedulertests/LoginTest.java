@@ -6,12 +6,11 @@ import org.testng.annotations.Test;
 import scheduler.SSConfiguration;
 import schedulerscreens.HomeScreen;
 import schedulerscreens.LoginScreen;
-import schedulerscreens.SplashScreen;
 
 public class LoginTest extends SSConfiguration {
 
     @Test
-    public void loginSuccessTest(){
+    public void loginSuccessTest() {
 //        boolean isLoginBottonPresent = new SplashScreen(driver)
 //                .checkVersion("0.0.3")
 
@@ -24,7 +23,7 @@ public class LoginTest extends SSConfiguration {
 
         Assert.assertTrue(isFabBottonPresent);
 
-             boolean isLoginButtonPresent=  new HomeScreen(driver)
+        boolean isLoginButtonPresent = new HomeScreen(driver)
                 .openMenu()
                 .logOut()
                 .isLoginButton();
@@ -33,23 +32,20 @@ public class LoginTest extends SSConfiguration {
     }
 
     @Test
-    public void registrationSuccessTest(){
+    public void registrationSuccessTest() {
 
-        int index = (int)(System.currentTimeMillis()/1000)%3600;
+        int index = (int) (System.currentTimeMillis() / 1000) % 3600;
 
 //        boolean isLogBTNPresent = new SplashScreen(driver)
 //                .checkVersion("0.0.3")
 
 
-
-
-
         boolean isLoginBottonPresent = new LoginScreen(driver)
-                .complexLogin(Auth.builder().email("wick"+index+"@gmail.com").password("Ww12345$").build())
+                .complexLogin(Auth.builder().email("wick" + index + "@gmail.com").password("Ww12345$").build())
                 .skipWizard()
-                        .openMenu()
-                                .logOut()
-                                        .isLoginButton();
+                .openMenu()
+                .logOut()
+                .isLoginButton();
 
         Assert.assertTrue(isLoginBottonPresent);
 
@@ -57,7 +53,7 @@ public class LoginTest extends SSConfiguration {
     }
 
     @Test
-    public void loginSuccessTestComplex(){
+    public void loginSuccessTestComplex() {
 //        boolean isLogBTNPresent = new SplashScreen(driver)
 //                .checkVersion("0.0.3")
 
@@ -72,6 +68,16 @@ public class LoginTest extends SSConfiguration {
 
     }
 
+    @Test    /// wick@gmail.com Ww54321$
+    public void loginCheckErrorMessage() {
+        boolean isLoginBtnPresent = new LoginScreen(driver)
+                .complexLoginWithErrorMessage(Auth.builder().email("wick@gmail.com").password("Ww54321$").build())
+                .checkErrorMessage("Wrong email or password")
+                .confirmErrorMessage()
+                .isLoginButton();
+        Assert.assertTrue(isLoginBtnPresent);
 
-    /// wick@gmail.com Ww54321$
+
+    }
+
 }
