@@ -10,6 +10,14 @@ public class DragTest extends ADConfiguration {
     public void dragDownTest(){
         new DragScreen(driver)
                 .selectDraggableBasic()
-                .dragDown(3);
+                .dragDownWindow(2);
+               // .dragDown(3);
+    }
+    @Test
+    public void dragUpTest(){
+        new DragScreen(driver)
+                .selectDraggableBasic()
+                .dragUp(6,3);
+                //.dragUp(4);
     }
 }
