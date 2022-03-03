@@ -12,6 +12,7 @@ public class SwipeTest extends ADConfiguration {
         new DragScreen(driver)
                 .selectSwipe()
                 .selectSwipeBasic()
-                .swipeFromLeftToRight(2);
+                .swipeFromLeftToRight(2)
+                .swipeFromRightToLeft(4);
     }
 }

@@ -23,6 +23,15 @@ public class SwipeableBasicScreen extends BaseScreenAD{
 
         MobileElement element = list.get(index);
         Rectangle rect = element.getRect();
+        int xFrom = rect.getX()+ (rect.getWidth()*9)/10;
+        int xTo= rect.getX() + ((rect.getWidth()*1)/10);
+        int y = rect.getY()+ rect.getHeight()/2;
+
+        TouchAction<?> touchAction = new TouchAction<>(driver);
+        touchAction.longPress(PointOption.point(xFrom,y))
+                .moveTo(PointOption.point(xTo,y))
+                .release()
+                .perform();
 
 
         return this;

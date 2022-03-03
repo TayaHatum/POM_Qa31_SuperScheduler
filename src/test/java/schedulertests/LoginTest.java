@@ -13,6 +13,7 @@ public class LoginTest extends SSConfiguration {
     public void loginSuccessTest() {
 //        boolean isLoginBottonPresent = new SplashScreen(driver)
 //                .checkVersion("0.0.3")
+        logger.info("Login with data wick@gmail.com + Ww12345$");
 
         boolean isFabBottonPresent = new LoginScreen(driver)
                 .fillEmail("wick@gmail.com")
@@ -38,17 +39,18 @@ public class LoginTest extends SSConfiguration {
 
 //        boolean isLogBTNPresent = new SplashScreen(driver)
 //                .checkVersion("0.0.3")
-
+        Auth auth = Auth.builder().email("wick" + index + "@gmail.com").password("Ww12345$").build();
+logger.info("Registration with new auth --> "+auth.toString());
 
         boolean isLoginBottonPresent = new LoginScreen(driver)
-                .complexLogin(Auth.builder().email("wick" + index + "@gmail.com").password("Ww12345$").build())
+                .complexLogin(auth)
                 .skipWizard()
                 .openMenu()
                 .logOut()
                 .isLoginButton();
 
         Assert.assertTrue(isLoginBottonPresent);
-
+logger.info("Asser Login Button Present");
 
     }
 
