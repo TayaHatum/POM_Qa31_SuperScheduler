@@ -38,6 +38,9 @@ public class SSConfiguration {
         logger.info("\"platformVersion\", \"8.0\"");
         capabilities.setCapability("appPackage", "com.example.svetlana.scheduler");
         capabilities.setCapability("appActivity", ".presentation.splashScreen.SplashScreenActivity");
+
+
+
         capabilities.setCapability("automationName","Appium");
         capabilities.setCapability("app","/Users/tayahatum/Tools/apk/v.0.0.3.apk");
         logger.info("Link to apk --> /Users/tayahatum/Tools/apk/v.0.0.3.apk" );

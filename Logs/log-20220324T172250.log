@@ -1,0 +1,6 @@
+17:22:50 INFO  - "deviceName", "Nex"
+17:22:50 INFO  - "platformName", "Android"
+17:22:50 INFO  - "platformVersion", "8.0"
+17:22:50 INFO  - Link to apk --> /Users/tayahatum/Tools/apk/v.0.0.3.apk
+17:23:16 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/app_version_res']
+17:23:16 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/app_version_res']
