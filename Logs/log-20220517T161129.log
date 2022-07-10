@@ -1,0 +1,114 @@
+16:11:29 INFO  - "deviceName", "Nex"
+16:11:29 INFO  - "platformName", "Android"
+16:11:29 INFO  - "platformVersion", "8.0"
+16:11:29 INFO  - Link to apk --> /Users/tayahatum/Tools/apk/v.0.0.3.apk
+16:11:48 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:49 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:49 INFO  - You hate a problem org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:27:afd8:f3f4:c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 75952a85-6528-42f0-a2fd-bbdd85ba52b0
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+16:11:50 INFO  - Screen with error in file src/test/screenshots/screen710.png
+16:11:50 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:50 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:50 INFO  - You hate a problem org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:27:afd8:f3f4:c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 75952a85-6528-42f0-a2fd-bbdd85ba52b0
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+16:11:52 INFO  - Screen with error in file src/test/screenshots/screen712.png
+16:11:52 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:52 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:53 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:53 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:53 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:54 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:55 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:55 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:11:56 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:11:57 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:11:57 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:11:58 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:11:58 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:11:59 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:12:00 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+16:12:01 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+16:12:01 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:02 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:02 INFO  - You hate a problem org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:27:afd8:f3f4:c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 75952a85-6528-42f0-a2fd-bbdd85ba52b0
+*** Element info: {Using=xpath, value=//*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']}
+16:12:07 INFO  - Screen with error in file src/test/screenshots/screen727.png
+16:12:07 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:08 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:08 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:08 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:08 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_add_event']
+16:12:09 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_add_event']
+16:12:09 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:11 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:11 INFO  - You hate a problem org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:27:afd8:f3f4:c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 75952a85-6528-42f0-a2fd-bbdd85ba52b0
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']}
+16:12:12 INFO  - Screen with error in file src/test/screenshots/screen732.png
+16:12:12 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:12 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:13 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:13 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:13 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:14 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:15 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:15 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:12:16 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:12:18 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:12:18 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:12:19 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:12:19 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:12:20 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:12:21 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:12:22 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:12:22 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:12:23 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:12:23 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']
+16:12:24 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']
+16:12:24 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:12:25 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:12:25 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:12:27 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:12:28 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:12:28 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:12:29 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']
+16:12:30 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']
+16:12:30 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']
+16:12:32 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']
+16:12:32 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:35 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:35 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:36 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:12:36 INFO  - Before find by --> By.xpath: //*[@content-desc='Open']
+16:12:36 INFO  - After find by --> By.xpath: //*[@content-desc='Open']
+16:12:37 INFO  - Before find by --> By.xpath: //*[@content-desc='Open']
+16:12:37 INFO  - After find by --> By.xpath: //*[@content-desc='Open']
+16:12:37 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+16:12:39 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+16:12:39 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+16:12:40 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+16:12:40 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+16:12:40 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']

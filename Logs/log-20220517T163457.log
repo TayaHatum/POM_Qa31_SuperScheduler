@@ -1,0 +1,103 @@
+16:34:57 INFO  - "deviceName", "Nex"
+16:34:57 INFO  - "platformName", "Android"
+16:34:57 INFO  - "platformVersion", "8.0"
+16:34:57 INFO  - Link to apk --> /Users/tayahatum/Tools/apk/v.0.0.3.apk
+16:35:22 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:23 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:24 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:24 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:24 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:26 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:27 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:28 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+16:35:28 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:35:29 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:35:30 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:35:30 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:35:31 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:35:31 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+16:35:33 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+16:35:33 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+16:35:34 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:35:35 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:35:35 INFO  - You hate a problem org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:27:afd8:f3f4:c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a7858671-1537-4f07-889f-f8d818f06909
+*** Element info: {Using=xpath, value=//*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']}
+16:35:40 INFO  - Screen with error in file src/test/screenshots/screen2140.png
+16:35:41 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:35:42 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:35:43 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:35:44 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:35:45 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_add_event']
+16:35:46 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_add_event']
+16:35:50 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:50 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:50 INFO  - The text of 'Day' -->17
+16:35:50 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:35:51 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:35:51 INFO  - The text of 'Month' -->MAY
+16:35:51 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:51 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:52 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:35:52 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:35:52 INFO  - Impotent to know month is --->MAY
+16:35:52 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:53 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:57 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:57 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:58 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:35:58 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:35:58 INFO  - Impotent to know month is --->MAY
+16:35:58 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:35:58 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:36:03 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:36:03 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:36:03 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:36:04 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:36:04 INFO  - Impotent to know month is --->MAY
+16:36:04 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:36:04 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:36:08 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:36:09 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+16:36:09 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:36:09 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']
+16:36:10 INFO  - Impotent to know month is --->MAY
+16:36:10 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:10 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:10 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:10 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:10 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:12 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:12 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:13 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+16:36:13 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:36:14 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:36:15 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:36:15 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:36:16 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:36:17 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+16:36:18 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:36:19 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:36:19 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:36:20 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+16:36:20 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']
+16:36:21 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']
+16:36:21 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:36:22 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:36:22 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:36:23 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:36:24 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:36:24 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+16:36:24 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']
+16:36:25 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']
+16:36:25 INFO  - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']
+16:36:26 INFO  - After find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']
+16:36:27 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:36:32 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:36:32 INFO  - Before find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']
+16:36:34 INFO  - After find by --> By.xpath: //*[@resource-id ='com.example.svetlana.scheduler:id/fab_main']

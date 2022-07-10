@@ -3,6 +3,7 @@ package schedulertests;
 import models.Auth;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import scheduler.DataProviderMy;
 import scheduler.SSConfiguration;
 import schedulerscreens.HomeScreen;
 import schedulerscreens.LoginScreen;
@@ -40,7 +41,7 @@ public class LoginTest extends SSConfiguration {
 //        boolean isLogBTNPresent = new SplashScreen(driver)
 //                .checkVersion("0.0.3")
         Auth auth = Auth.builder().email("wick" + index + "@gmail.com").password("Ww12345$").build();
-logger.info("Registration with new auth --> "+auth.toString());
+        logger.info("Registration with new auth --> " + auth.toString());
 
         boolean isLoginBottonPresent = new LoginScreen(driver)
                 .complexLogin(auth)
@@ -50,7 +51,37 @@ logger.info("Registration with new auth --> "+auth.toString());
                 .isLoginButton();
 
         Assert.assertTrue(isLoginBottonPresent);
-logger.info("Asser Login Button Present");
+        logger.info("Asser Login Button Present");
+
+    }
+
+    @Test(dataProvider = "loginData", dataProviderClass = DataProviderMy.class)
+    public void loginSuccessTestComplexDP(Auth auth) {
+        logger.info("The test start with data --->" + auth.toString());
+
+        boolean isLoginButtonPresent = new LoginScreen(driver)
+                .complexLogin(auth)
+                .skipWizard()
+                .openMenu()
+                .logOut()
+                .isLoginButton();
+
+        Assert.assertTrue(isLoginButtonPresent);
+
+    }
+
+    @Test(dataProvider = "loginDataCSV", dataProviderClass = DataProviderMy.class)
+    public void loginSuccessTestComplexDPCSV(Auth auth) {
+        logger.info("The test start with data --->" + auth.toString());
+
+        boolean isLoginButtonPresent = new LoginScreen(driver)
+                .complexLogin(auth)
+                .skipWizard()
+                .openMenu()
+                .logOut()
+                .isLoginButton();
+
+        Assert.assertTrue(isLoginButtonPresent);
 
     }
 
@@ -59,14 +90,27 @@ logger.info("Asser Login Button Present");
 //        boolean isLogBTNPresent = new SplashScreen(driver)
 //                .checkVersion("0.0.3")
 
-        boolean isLoginBottonPresent = new LoginScreen(driver)
+        boolean isLoginButtonPresent = new LoginScreen(driver)
                 .complexLogin(Auth.builder().email("wick@gmail.com").password("Ww12345$").build())
                 .skipWizard()
                 .openMenu()
                 .logOut()
                 .isLoginButton();
 
-        Assert.assertTrue(isLoginBottonPresent);
+        Assert.assertTrue(isLoginButtonPresent);
+
+    }
+
+    @Test
+    public void loginSuccessTestWithoutWizard() {
+
+        boolean isLoginButtonPresent = new LoginScreen(driver)
+                .complexLoginToHome(Auth.builder().email("wick@gmail.com").password("Ww12345$").build())
+                .openMenu()
+                .logOut()
+                .isLoginButton();
+
+        Assert.assertTrue(isLoginButtonPresent);
 
     }
 

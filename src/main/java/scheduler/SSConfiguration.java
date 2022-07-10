@@ -53,6 +53,6 @@ public class SSConfiguration {
 
     @AfterSuite
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 }

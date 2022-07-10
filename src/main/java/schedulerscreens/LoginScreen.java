@@ -56,6 +56,16 @@ public class LoginScreen extends BaseScreen{
         return new WizardScreen(driver);
     }
 
+    public HomeScreen complexLoginToHome(Auth auth){
+        should(emailEditText,25);
+        type (emailEditText,auth.getEmail());
+        type(passwordEditText, auth.getPassword());
+        hideKeyBoard();
+        loginButton.click();
+
+        return new HomeScreen(driver);
+    }
+
     public boolean isLoginButton(){
         return loginButton.isDisplayed();
     }
@@ -85,5 +95,10 @@ public class LoginScreen extends BaseScreen{
         okBtn.click();
         return this;
 
+    }
+    public LoginScreen loginButtonPresent(){
+        should(loginButton,5);
+        Assert.assertTrue(loginButton.isDisplayed());
+        return this;
     }
 }

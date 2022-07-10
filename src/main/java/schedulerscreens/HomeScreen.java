@@ -5,6 +5,8 @@ import io.appium.java_client.MobileElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
+import java.util.List;
+
 public class HomeScreen extends BaseScreen {
     public HomeScreen(AppiumDriver<MobileElement> driver) {
         super(driver);
@@ -20,6 +22,8 @@ public class HomeScreen extends BaseScreen {
     MobileElement burgerMenu;
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']")
     MobileElement logout;
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/row_root']")
+    List<MobileElement> events;
 
     public boolean isFabButtonPresent() {
         should(fabAdd, 20);
@@ -31,6 +35,7 @@ public class HomeScreen extends BaseScreen {
         return this;
     }
     public HomeScreen openMenu() {
+        should(burgerMenu,20);
         burgerMenu.click();
         return this;
     }
@@ -45,6 +50,15 @@ public class HomeScreen extends BaseScreen {
         fabAddEvent.click();
         return  new EditCreateEventScreen(driver);
     }
+    public EditCreateEventScreen selectFirstEvent(){
+        MobileElement firstEvent = events.get(0);
+        firstEvent.click();
 
+        return new EditCreateEventScreen(driver);
+    }
+    public boolean isPlusButtonPresent(){
 
+        should(fabAdd,20);
+        return fabAdd.isDisplayed();
+    }
 }
